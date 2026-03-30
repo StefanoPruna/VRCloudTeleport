@@ -44,7 +44,10 @@ It facilitates seamless navigation and interaction within 3D spaces, making it e
 
 \## Project Structure
 
-
+- `/src`: Contains the main source code of the application.
+- `/docs`: Documentation and guides for the project.
+- `/tests`: Unit and integration tests for validating functionalities.
+- `/assets`: Resources such as images and models needed for the project.
 
 
 
