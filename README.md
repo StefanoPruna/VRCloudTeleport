@@ -11,7 +11,7 @@ The player spawns on a cloud high in the sky, surrounded by other cloud platform
 - **Sky Environment** — Full atmospheric sky setup with SkyAtmosphere, Volumetric Clouds, ExponentialHeightFog, and dynamic lighting
 - **Cloud Platforms** — Multiple `BPCloud` actors placed at high altitude, each serving as a teleportable surface
 - **VR Teleportation** — Arc-based teleport system using the VR template's motion controllers with tag-based validation (only clouds tagged `Teleport` are valid targets)
-- **Random Teleport (Desktop Testing)** — Press `T` to randomly teleport to one of the designated cloud platforms
+- **Random Teleport (Desktop Testing)** — Press `1` to randomly teleport to one of the designated cloud platforms
 - **Configurable Cloud Targets** — Instance-editable `Clouds` array (type: `BPCloud`) on the VRPawn allows level designers to hand-pick which clouds are teleport destinations
 - **Tethered VR Mode** — Designed for tethered desktop VR (Oculus Link, SteamVR, etc.)
 
