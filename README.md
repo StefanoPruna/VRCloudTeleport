@@ -23,7 +23,7 @@ Content/
 │   ├── VRPawn           — VR pawn with teleport trace, camera, motion controllers
 │   ├── BPCloud          — Cloud platform actor (tagged "Teleport")
 │   ├── BPPortal         — Portal actor for teleportation
-│   └── GM_CloudWorld    — Game Mode with VRPawn as default pawn
+│   └── GMCloudWorld    — Game Mode with VRPawn as default pawn
 ├── Levels/
 │   └── CloudWorld       — Main sky level
 └── ...
@@ -41,7 +41,7 @@ Content/
 
 - Static mesh with collision for the platform surface
 - Tagged with `Teleport` for teleport validation
-- Placed at high Z altitude (~50,000 units) in the level
+- Placed at high Z altitude in the level
 
 ### Key Variables (VRPawn)
 
